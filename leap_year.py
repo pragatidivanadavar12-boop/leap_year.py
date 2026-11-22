@@ -30,6 +30,7 @@ def main():
         print(get_result(year))
     except ValueError as error:
         print("Invalid input:", error)
+print("enter values to check if its leap year or not!")
 if __name__ == "__main__":
     main()
 
